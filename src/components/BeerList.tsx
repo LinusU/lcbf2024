@@ -140,10 +140,10 @@ const BeerList: React.FC<BeerListProps> = ({ beers }) => {
     <div>
       <Popup visible={showHelp} onClose={() => setShowHelp(false)} style={{ fontFamily: 'sans-serif' }}>
         <VStack gap={10}>
-          <p>This web application was created for London Craft Beer Festival 2023 and will help you find the beers and their respective rating</p>
+          <p>This web application was created for London Craft Beer Festival 2024 and will help you find the beers and their respective rating</p>
           <p>The bars on the beer cards indicate on what session they are available. The first bar corresponds to friday afternoon etc.</p>
           <p>This application was created by <a href='https://github.com/LinusU'>Linus Unnebäck</a>, <a href='https://github.com/3DJakob'>Jakob Unnebäck</a>, <a href='https://github.com/rSkogeby'>Richard Skogeby</a> and Otto Gärdin</p>
-          <Button onClick={() => window.open('https://github.com/LinusU/lcbf2023', '_blank')}><p style={{ marginRight: 10 }}>View on Github</p> <FaGithub></FaGithub></Button>
+          <Button onClick={() => window.open('https://github.com/LinusU/lcbf2024', '_blank')}><p style={{ marginRight: 10 }}>View on Github</p> <FaGithub></FaGithub></Button>
         </VStack>
       </Popup>
 
